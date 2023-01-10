@@ -9,8 +9,6 @@ const TodoList = ()=>{
             <div>
                 <label htmlFor='inputArea'>input something</label>
                 <input
-                    id='inputArea'
-                    className='input'
                     value={input}
                     onChange={(e)=>{
                         setInput(e.target.value)
